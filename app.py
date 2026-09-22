@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello World! Automatic End-to-End CI/CD is fully working!", 200
+    return "Hello World! Automatic End-to-End CI/CD is fully work!", 200
 
 
 if __name__ == "__main__":
